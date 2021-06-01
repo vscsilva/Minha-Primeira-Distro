@@ -1,2 +1,3 @@
 # minha-primeira-distro
-Ivan corno
+
+Desenvolvido por Vitor Cardoso.
