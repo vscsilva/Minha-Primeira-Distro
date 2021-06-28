@@ -85,3 +85,8 @@ color: white;
 	margin-left: auto;
 	margin-right: auto;
   }
+.flex-imgs{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
