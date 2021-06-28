@@ -40,14 +40,13 @@ h1{
 	margin:50px 0 50px 0;
 }
 
-/* IDS */
-#principal{
+main{
 	clear:both;
 	background-size:100%;
 	min-height: 400px;
 	padding:0 0 0 0;
 }
-
+/* IDs */
 #logo{
 	float:left;
 	margin-top: 0px;
@@ -70,7 +69,7 @@ background-color:#00ADB5;
 color: white;
 }
 
-/* class */
+/* classes */
 .container{
 	width: 1885px;
 	margin: 0 auto;
