@@ -64,9 +64,11 @@ main{
 	text-decoration: none;
 	color: white;
 }
+
 #menu a:hover{
 background-color:#00ADB5;
 border-radius: 8px;
+cursor: pointer;
 }
 
 /* classes */
@@ -90,3 +92,5 @@ border-radius: 8px;
 	align-items: center;
 	justify-content: center;
 }
+
+/*@media (max-width: 600px ) and (min-width: 500px)
