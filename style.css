@@ -67,6 +67,7 @@ main{
 #menu a:hover{
 background-color:#00ADB5;
 color: white;
+border-radius: 8px;
 }
 
 /* classes */
