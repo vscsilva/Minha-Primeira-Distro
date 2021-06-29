@@ -37,12 +37,10 @@ h1{
 	color:white	;
 	text-shadow:1px 1px 1px #111111;
 	text-align: center;
-	margin:50px 0 50px 0;
+	margin: 50px;
 	padding-top:20px;
 }
-h2{
-	color:white;
-}
+
 
 main{
 	clear:both;
@@ -70,9 +68,9 @@ main{
 }
 
 #menu a:hover{
-background-color:#00ADB5;
-border-radius: 8px;
-cursor: pointer;
+	background-color:#00ADB5;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
 
@@ -93,23 +91,17 @@ cursor: pointer;
 	margin-left: auto;
 	margin-right: auto;
   }
+
 .flex-imgs{
 	display:flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.vants{
-background-color: #393E46;
-width: 60px;
-height: 180px;
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-flex-basis: 15%;
-padding: 20px;
-border-radius: 8px;
+.titulo-vant{
+	display:flex;
+	justify-content: space-evenly;
+	width:100%;
 }
 
 .container-vant{
@@ -119,10 +111,24 @@ border-radius: 8px;
 	justify-content: space-evenly;
 }
 
+.vants{
+	background-color: #393E46;
+	width: 60px;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	flex-basis: 15%;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+
 .alinhamentoh2{
 	margin-top:20px;
 	font-size: medium;
-	text-align: center;
+	color:white;
 
 }
 /*@media (max-width: 600px ) and (min-width: 500px)
