@@ -98,33 +98,31 @@ cursor: pointer;
 	align-items: center;
 	justify-content: center;
 }
-.titulo-vant{
-	display:flex;
-	justify-content: space-between;
-	margin-left: 120px;
-	margin-right: 120px;
-}
+
 .vants{
 background-color: #393E46;
-width: 180px;
-height: 250px;
+width: 60px;
+height: 180px;
 display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-flex-basis: 20%;
+flex-basis: 15%;
 padding: 20px;
 border-radius: 8px;
-margin: 20px;
 }
+
 .container-vant{
 	display:flex;
 	width: 100%;
 	flex-wrap:wrap;
-	margin-top: 20px;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
-.alinhamento{
+
+.alinhamentoh2{
 	margin-top:20px;
+	font-size: medium;
+	text-align: center;
+
 }
 /*@media (max-width: 600px ) and (min-width: 500px)
