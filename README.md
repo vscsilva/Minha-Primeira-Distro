@@ -1,4 +1,3 @@
 <h1 align="center">
   <img src="src/logo.png" title="Minha Primeira Distro Linux"/><br>
-  Minha Primeira Distribuição Linux
-</h1>
+ Um site feito para aprendizado de HTML, CSS e JS.
