@@ -1,27 +1,81 @@
-p{
-	color:white;
-	font-size: 15px;
-	font-family: arial, Helvetica;
-	text-shadow:1px 1px 1px #111111;
-    text-align: center;
-}
-
-body{
-	background-color:#222831;
-}
-
 *{
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, arial;
 }
 
-header{
+body{
 	background-color:#222831;
-	height: 80px;
-	padding:20px;
+	font-family: arial, Helvetica, sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header{
+	height: 80px;
+	padding:20px;
+	background-color:#222831;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav #logo img {
+	width: 400px;
+	height: auto;
+}
+
+nav #menu {
+	display: flex;
+}
+
+nav #menu li {
+	list-style: none;
+}
+
+nav #menu li a {
+	margin: 8px;
+	padding: 15px 10px;
+	border-radius: 8px;
+	font-size: 18px;
+	color: white;
+	transition: .3s ease-in;
+
+	cursor: pointer;
+}
+
+nav #menu li a:hover {
+	background-color:#00ADB5;
+}
+
+main{
+	clear:both;
+	background-size:100%;
+	min-height: 400px;
+	padding:0 0 0 0;
+}
+
+h1{
+	color:white	;
+	text-shadow:1px 1px 1px #111111;
+	text-align: center;
+	margin: 50px;
+	padding-top:20px;
+}
+
+p{
+	color:white;
+	font-size: 15px;
+	font-family: arial, Helvetica;
+	text-shadow:1px 1px 1px #111111;
+		text-align: center;
+}
 
 footer{
 	clear: both;
@@ -33,22 +87,8 @@ footer{
 	font-size:12px;
 }
 
-h1{
-	color:white	;
-	text-shadow:1px 1px 1px #111111;
-	text-align: center;
-	margin: 50px;
-	padding-top:20px;
-}
-
-
-main{
-	clear:both;
-	background-size:100%;
-	min-height: 400px;
-	padding:0 0 0 0;
-}
-/* IDs */
+/* Essa parte refatorei, normalmente utiliza-se o css aninhado pois fica mais claro o código */
+/* IDs
 #logo{
 	float:left;
 	margin-top: 0px;
@@ -71,7 +111,7 @@ main{
 	background-color:#00ADB5;
 	border-radius: 8px;
 	cursor: pointer;
-}
+} */
 
 
 
