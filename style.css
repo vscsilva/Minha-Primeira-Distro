@@ -87,35 +87,6 @@ footer{
 	font-size:12px;
 }
 
-/* Essa parte refatorei, normalmente utiliza-se o css aninhado pois fica mais claro o código */
-/* IDs
-#logo{
-	float:left;
-	margin-top: 0px;
-}
-
-#menu{
-	float: right;
-	font-size: 18px;
-    margin-top: 50px;
-	margin-right: 30px;
-}
-
-#menu a{ 
-	padding: 15px 30px;
-	text-decoration: none;
-	color: white;
-}
-
-#menu a:hover{
-	background-color:#00ADB5;
-	border-radius: 8px;
-	cursor: pointer;
-} */
-
-
-
-/* classes */
 .container{
 	width: 1885px;
 	margin: 0 auto;
