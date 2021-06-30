@@ -147,7 +147,7 @@ footer{
 .container-vant{
 	display:flex;
 	width: 100%;
-	flex-wrap:wrap;
+	flex-flow: row wrap;
 	justify-content: space-evenly;
 }
 
@@ -173,6 +173,5 @@ footer{
 	margin-top:20px;
 	font-size: medium;
 	color:white;
-
 }
 /*@media (max-width: 600px ) and (min-width: 500px)
