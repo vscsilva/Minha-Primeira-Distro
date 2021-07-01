@@ -145,4 +145,32 @@ footer{
 	font-size: medium;
 	color:white;
 }
+
+.footerLinks {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+ }
+ 
+ .footerLinks ul {
+	 padding: 0;
+	 list-style-type: none;
+	 margin: 0;
+ }
+ 
+ .footerLinks li {
+	list-style: none;
+}
+
+ .footerLinks a {
+	 margin: 8px;
+	 padding: 10px 5px;
+	 transition: .2s ease-in;
+	 font-size: 15px;
+	 border-radius: 8px;
+	 cursor: pointer;
+ }
+ .footerLinks a:hover{
+	 color:#00ADB5;
+ }
 /*@media (max-width: 600px ) and (min-width: 500px)
