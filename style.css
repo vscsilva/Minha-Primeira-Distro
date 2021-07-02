@@ -124,7 +124,6 @@ footer{
 
 .vants{
 	background-color: #393E46;
-	width: 60px;
 	height: 180px;
 	display: flex;
 	flex-direction: column;
@@ -136,8 +135,9 @@ footer{
 }
 
 .alinhamentoh1{
-	width:200px;
+	width:250px;
 	height:50px;
+	text-align: center;
 }
 
 .alinhamentoh2{
