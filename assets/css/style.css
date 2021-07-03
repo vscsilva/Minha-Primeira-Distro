@@ -107,28 +107,29 @@ footer{
 }
 
 .container-vant{
-	display:flex;
-	width: 100%;
-	flex-flow: row wrap;
+	max-width: 1200px;
+	margin: 60px auto;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
 .vants{
 	background-color: #393E46;
-	height: 180px;
-	display: flex;
+	height: 250px;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	flex-basis: 15%;
-	padding: 20px;
+	flex-basis: 20%;
+	padding:  0 20px 20px 20px;
 	border-radius: 8px;
+	margin-top: 20px;
 }
 
 .alinhamentoh1{
-	width:250px;
-	height:50px;
-	text-align: center;
+	flex: 1 1 300px;
+	margin: 0 10px;
+	padding-bottom: 30px;
 }
 
 .alinhamentoh2{
