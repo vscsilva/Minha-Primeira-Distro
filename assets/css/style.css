@@ -132,6 +132,10 @@ footer{
 	color:white;
 }
 
+.tamanhoimgs{
+	width : 150px; 
+	height: 80px;
+}
 .footerLinks {
 	text-align: center;
 	display: flex;
@@ -160,7 +164,7 @@ footer{
 	 color:#00ADB5;
  }
 
-/* @media (max-width: 700px) and (min-width: 300px){
+ /*@media (max-width: 700px) and (min-width: 300px){
  header{
 	height: 100px;
 	padding:20px;
@@ -174,10 +178,9 @@ footer{
  }
 	
  nav #logo img {
-	margin-bottom: 20px;
 	padding:10px;
 	width: 300px;
-	height: auto;
+	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
  }
@@ -185,7 +188,28 @@ footer{
  nav #menu {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: auto;
-	margin-right: auto;
+	margin:20px;
  }
- }
+ .vants{
+	background-color: #393E46;
+	height: 120px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	flex-basis: 20%;
+	padding: 20px;
+	border-radius: 12px;
+	margin-top: 20px;
+}
+.tamanhoimgs{
+	width : 100px; 
+	height: 40px;
+}
+.alinhamentoh2{
+	margin:10px;
+	font-size: small;
+	color:white;
+
+}
+}
