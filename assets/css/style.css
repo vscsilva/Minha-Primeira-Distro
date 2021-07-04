@@ -100,15 +100,9 @@ footer{
 	justify-content: center;
 }
 
-.titulo-vant{
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
 .container-vant{
-	max-width: 1200px;
-	margin: 60px auto;
+	max-width: 960px;
+	margin: 20px auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -121,18 +115,19 @@ footer{
 	align-items: center;
 	text-align: center;
 	flex-basis: 20%;
-	padding:  0 20px 20px 20px;
-	border-radius: 8px;
+	padding: 20px;
+	border-radius: 12px;
 	margin-top: 20px;
 }
 
 .alinhamentoh1{
-	flex: 1 1 300px;
-	margin: 0 20px 20px 20px;
+	margin: 20px;
+	padding:10px;
+	flex-basis: 20%;
 }
 
 .alinhamentoh2{
-	margin-top:20px;
+	margin:10px;
 	font-size: medium;
 	color:white;
 }
@@ -165,7 +160,7 @@ footer{
 	 color:#00ADB5;
  }
 
- @media (max-width: 700px) and (min-width: 300px){
+/* @media (max-width: 700px) and (min-width: 300px){
  header{
 	height: 100px;
 	padding:20px;
