@@ -79,9 +79,9 @@ p{
 }
 
 footer{
+	background: #393E46; 
 	clear: both;
     color: white;	
-	height: 30px;
 	text-align: center;
 	margin-top: 30px;
 	padding: 10px;
@@ -159,9 +159,6 @@ footer{
 	 font-size: 15px;
 	 border-radius: 8px;
 	 cursor: pointer;
- }
- .footerLinks a:hover{
-	 color:#00ADB5;
  }
 
  /*@media (max-width: 700px) and (min-width: 300px){
