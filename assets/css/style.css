@@ -131,8 +131,16 @@ footer{
 	font-size: medium;
 	color:white;
 }
+.tamanhoimgs1{
+	width: 400px;
+	height: 250px;
+}
+.arrowsize{
+	width: 250px;
+	height: 200px;;
+}
 
-.tamanhoimgs{
+.tamanhoimgs2{
 	width : 150px; 
 	height: 80px;
 }
@@ -169,8 +177,16 @@ footer{
 	}
 
 	nav #logo img {
-		width: 320px;
-		margin-bottom: 20px;
+		width: 280px;
+		margin-bottom: 20px;	
+	}
+	.tamanhoimgs1{
+		width: 120px;
+		height: 80px;
+	}
+	.arrowsize{
+		width: 60px;
+		height: 40px;
 	}
  }
 
