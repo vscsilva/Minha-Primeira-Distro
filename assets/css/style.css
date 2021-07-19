@@ -154,7 +154,7 @@ footer{
 	height: 230px;
 }
 
-.arrowSize{
+.sizeArrow{
 	width: 250px;
 	height: 200px;;
 }
@@ -200,11 +200,11 @@ footer{
 		width: 280px;
 		margin-bottom: 20px;	
 	}
-	.tamanhoimgs1{
+	.sizeImgs1{
 		width: 120px;
 		height: 80px;
 	}
-	.arrowsize{
+	.sizeArrow{
 		width: 60px;
 		height: 40px;
 	}
