@@ -87,19 +87,19 @@ footer{
 	font-size:12px;
 }
 
-.fundoprincipal{
+.fundoPrincipal{
 	background-color:#00ADB5;
 	padding: 80px 0 80px 0;
 }
 
-.flex-imgs{
+.flexImgs{
 	display:flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
 
-.container-vant{
+.containerVant{
 	max-width: 1200px;
 	margin: 20px auto;
 	display: flex;
@@ -136,10 +136,12 @@ footer{
 }
 
 .botao {
-	position: relative;
-	top: 60px;
-	left: 600px;
-	bottom: 8px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 	color: white;
 	text-decoration: none;
 	padding: 10px 30px;
