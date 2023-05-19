@@ -139,7 +139,7 @@
   
   .sizeImgs2 {
 	width: 40%;
-	max-width: 150px;
+	max-width: 80px;
 	height: auto;
   }
   
@@ -147,14 +147,10 @@
 /* Media query for screens up to 768px */
 @media screen and (max-width: 768px) {
 	header {
-	  position: fixed;
-	  top: 0;
-	  left: 0;
-	  right: 0;
-	  height: auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 	  padding: 10px;
-	  z-index: 999;
-	  /* background-color: white; Optional: Add a background color to the header */
 	}
   
 	nav {
