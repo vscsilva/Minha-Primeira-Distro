@@ -177,4 +177,8 @@
 	  padding: 10px;
 	  font-size: 1rem;
 	}
+
+	.mainSection{
+		margin-top: -30%;
+	  }
   }
