@@ -1,23 +1,28 @@
+:root{
+	--background-color: #222831;
+	--hover-main__background-color: #00ADB5;
+	--text-color: #fdfdfd;
+	--cards-footer-color: #393E46;
+}
+
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Helvetica, arial;
+	font-family: arial, Helvetica, sans-serif;
 }
 
 body{
-	background-color:#222831;
-	font-family: arial, Helvetica, sans-serif;
+	background-color: var(--background-color);
 }
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: var(--text-color);
 }
 
 header{
 	height: 150px;
 	padding:20px;
-	background-color:#222831;
 }
 
 header nav {
@@ -45,14 +50,14 @@ nav #menu li a {
 	padding: 15px 10px;
 	border-radius: 8px;
 	font-size: 18px;
-	color: white;
+	color: var(--text-color);
 	transition: .3s ease-in;
 
 	cursor: pointer;
 }
 
 nav #menu li a:hover {
-	background-color:#00ADB5;
+	background-color:var(--hover-main__background-color);
 }
 
 main{
@@ -63,36 +68,23 @@ main{
 }
 
 h1{
-	color:white	;
+	color:var(--text-color);
 	text-shadow:1px 1px 1px #111111;
 	text-align: center;
 	margin: 30px 30px 50px 30px;
 }
 
 p{
-	color:white;
+	color:var(--text-color);
 	font-size: 15px;
 	font-family: arial, Helvetica;
 	text-shadow:1px 1px 1px #111111;
 	text-align: center;
 }
 
-footer{
-	background: #393E46; 
-	clear: both;
-    color: white;	
-	text-align: center;
-	margin-top: 30px;
-	padding: 10px;
-	font-size:12px;
-}
-
 .fundoPrincipal{
-	background-color:#00ADB5;
-	padding: 80px 0 80px 0;
-}
-
-.flexImgs{
+	background-color:var(--hover-main__background-color);
+	padding: 80px 0;
 	display:flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -108,7 +100,7 @@ footer{
 }
 
 .vants{
-	background-color: #393E46;
+	background-color: var(--cards-footer-color);
 	height: 220px;
 	flex-direction: column;
 	align-items: center;
@@ -132,7 +124,7 @@ footer{
 .alinhamentoh2{
 	margin:10px;
 	font-size: medium;
-	color:white;
+	color:var(--text-color);
 }
 
 .sizeImgs1{
@@ -142,7 +134,7 @@ footer{
 
 .sizeArrow{
 	width: 250px;
-	height: 200px;;
+	height: 200px;
 }
 
 .sizeImgs2{
@@ -150,7 +142,18 @@ footer{
 	height: 80px;
 }
 
+footer{
+	background: var(--cards-footer-color); 
+	clear: both;
+    color: var(--text-color);	
+	text-align: center;
+	margin-top: 30px;
+	padding: 10px;
+	font-size:14px;
+}
+
 .footerLinks {
+	margin-top: 1%;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -169,11 +172,14 @@ footer{
  .footerLinks a {
 	 margin: 8px;
 	 padding: 10px 5px;
-	 transition: .2s ease-in;
 	 font-size: 15px;
 	 border-radius: 8px;
 	 cursor: pointer;
  }
+
+.footerLinks a:hover{
+	background-color: var(--hover-main__background-color);
+}
 
  @media (max-width: 725px) {
 	header nav {
@@ -195,53 +201,3 @@ footer{
 		height: 40px;
 	}
  }
-
- /*@media (max-width: 700px) and (min-width: 300px){
- header{
-	height: 100px;
-	padding:20px;
-	background-color:#222831;
-	align-items: center;
- }
-	
- header nav {
-	display: flex;
-	flex-wrap: wrap;	
- }
-	
- nav #logo img {
-	padding:10px;
-	width: 300px;
-	height: 100px;
-	margin-left: auto;
-	margin-right: auto;
- }
-	
- nav #menu {
-	display: flex;
-	flex-wrap: wrap;
-	margin:20px;
- }
- .vants{
-	background-color: #393E46;
-	height: 120px;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: center;
-	text-align: center;
-	flex-basis: 20%;
-	padding: 20px;
-	border-radius: 12px;
-	margin-top: 20px;
-}
-.tamanhoimgs{
-	width : 100px; 
-	height: 40px;
-}
-.alinhamentoh2{
-	margin:10px;
-	font-size: small;
-	color:white;
-
-}
-}
