@@ -1,105 +1,104 @@
-:root{
+:root {
 	--background-color: #222831;
 	--hover-main__background-color: #00ADB5;
 	--text-color: #fdfdfd;
 	--cards-footer-color: #393E46;
-}
-
-*{
+  }
+  
+  * {
 	margin: 0;
 	padding: 0;
-	font-family: arial, Helvetica, sans-serif;
-}
-
-body{
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
 	background-color: var(--background-color);
-}
-
-a {
+  }
+  
+  a {
 	text-decoration: none;
 	color: var(--text-color);
-}
-
-header{
+  }
+  
+  header {
 	height: 150px;
-	padding:20px;
-}
-
-header nav {
+	padding: 20px;
+  }
+  
+  header nav {
 	display: flex;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-}
-
-nav #logo img {
-	width: 400px;
+  }
+  
+  nav #logo img {
+	width: 26rem;
 	height: auto;
-}
-
-nav #menu {
+  }
+  
+  nav #menu {
 	display: flex;
-}
-
-nav #menu li {
+  }
+  
+  nav #menu li {
 	list-style: none;
-}
-
-nav #menu li a {
+  }
+  
+  nav #menu li a {
 	margin: 8px;
 	padding: 15px 10px;
 	border-radius: 8px;
-	font-size: 18px;
+	font-size: 1.125rem;
 	color: var(--text-color);
-	transition: .3s ease-in;
-
+	transition: 0.3s ease-in;
 	cursor: pointer;
-}
-
-nav #menu li a:hover {
-	background-color:var(--hover-main__background-color);
-}
-
-main{
-	clear:both;
-	background-size:100%;
+  }
+  
+  nav #menu li a:hover {
+	background-color: var(--hover-main__background-color);
+  }
+  
+  section {
+	clear: both;
+	background-size: 100%;
 	min-height: 400px;
-	padding:0 0 0 0;
-}
-
-h1{
-	color:var(--text-color);
-	text-shadow:1px 1px 1px #111111;
+	padding: 0 0 0 0;
+  }
+  
+  h1 {
+	color: var(--text-color);
+	text-shadow: 1px 1px 1px #111111;
 	text-align: center;
 	margin: 30px 30px 50px 30px;
-}
-
-p{
-	color:var(--text-color);
-	font-size: 15px;
-	font-family: arial, Helvetica;
-	text-shadow:1px 1px 1px #111111;
+  }
+  
+  p {
+	color: var(--text-color);
+	font-size: 0.9375rem;
+	font-family: Arial, Helvetica;
+	text-shadow: 1px 1px 1px #111111;
 	text-align: center;
-}
-
-.fundoPrincipal{
-	background-color:var(--hover-main__background-color);
+  }
+  
+  .mainBackground {
+	background-color: var(--hover-main__background-color);
 	padding: 80px 0;
-	display:flex;
+	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-}
-
-.containerVant{
+  }
+  
+  .containerVant {
 	max-width: 1200px;
 	margin: 20px auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-}
-
-.vants{
+  }
+  
+  .vants {
 	background-color: var(--cards-footer-color);
 	height: 220px;
 	flex-direction: column;
@@ -109,95 +108,42 @@ p{
 	padding: 20px;
 	border-radius: 12px;
 	margin-top: 20px;
-}
-
-#titleVants{
+  }
+  
+  #titleVants {
 	margin-top: 120px;
-}
-
-.alinhamentoh1{
+  }
+  
+  .alinhamentoh1 {
 	margin: 20px;
-	padding:10px;
-	flex-basis: 20%;
-}
-
-.alinhamentoh2{
-	margin:10px;
-	font-size: medium;
-	color:var(--text-color);
-}
-
-.sizeImgs1{
-	width: 450px;
-	height: 230px;
-}
-
-.sizeArrow{
-	width: 250px;
-	height: 200px;
-}
-
-.sizeImgs2{
-	width : 150px; 
-	height: 80px;
-}
-
-footer{
-	background: var(--cards-footer-color); 
-	clear: both;
-    color: var(--text-color);	
-	text-align: center;
-	margin-top: 30px;
 	padding: 10px;
-	font-size:14px;
-}
+	flex-basis: 20%;
+  }
+  
+  .alinhamentoh2 {
+	margin: 10px;
+	font-size: medium;
+	color: var(--text-color);
+  }
+  
 
-.footerLinks {
-	margin-top: 1%;
-	text-align: center;
-	display: flex;
-	justify-content: center;
- }
- 
- .footerLinks ul {
-	 padding: 0;
-	 list-style-type: none;
-	 margin: 0;
- }
- 
- .footerLinks li {
-	list-style: none;
-}
-
- .footerLinks a {
-	 margin: 8px;
-	 padding: 10px 5px;
-	 font-size: 15px;
-	 border-radius: 8px;
-	 cursor: pointer;
- }
-
-.footerLinks a:hover{
-	background-color: var(--hover-main__background-color);
-}
-
- @media (max-width: 725px) {
-	header nav {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	nav #logo img {
-		width: 280px;
-		margin-bottom: 20px;	
-	}
-	.sizeImgs1{
-		width: 120px;
-		height: 80px;
-	}
-	.sizeArrow{
-		width: 60px;
-		height: 40px;
-	}
- }
+  .sizeImgs1 {
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+  }
+  
+  .sizeArrow {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+  }
+  
+  .sizeImgs2 {
+	width: 40%;
+	max-width: 150px;
+	height: auto;
+  }
+  
+  
+  
