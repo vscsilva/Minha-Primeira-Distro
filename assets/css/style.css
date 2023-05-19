@@ -33,12 +33,14 @@
   }
   
   nav #logo img {
-	width: 26rem;
+	width: 100%;
+	max-width: 400px;
 	height: auto;
   }
   
   nav #menu {
 	display: flex;
+	margin-top: 1%;
   }
   
   nav #menu li {
@@ -51,7 +53,7 @@
 	border-radius: 8px;
 	font-size: 1.125rem;
 	color: var(--text-color);
-	transition: 0.3s ease-in;
+	transition: .4s ease-in;
 	cursor: pointer;
   }
   
@@ -139,4 +141,26 @@
   }
   
   
+  /* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+	header {
+	  height: auto;
+	  padding: 10px;
+	}
   
+	nav #logo img {
+	  max-width: 200px;
+	}
+  
+	nav #menu {
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  margin-top: 5px;
+	}
+  
+	nav #menu li a {
+	  margin: 5px;
+	  padding: 10px;
+	  font-size: 1rem;
+	}
+  }
