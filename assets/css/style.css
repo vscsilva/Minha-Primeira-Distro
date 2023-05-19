@@ -126,16 +126,9 @@
 	color: var(--text-color);
   }
   
-
   .sizeImgs1 {
 	width: 100%;
 	max-width: 1200px;
-	height: auto;
-  }
-  
-  .sizeArrow {
-	width: 100%;
-	max-width: 200px;
 	height: auto;
   }
   
