@@ -2,7 +2,7 @@
 	--background-color: #222831;
 	--hover-main__background-color: #00ADB5;
 	--text-color: #fdfdfd;
-	--cards-footer-color: #393E46;
+	--cards-color: #393E46;
   }
   
   * {
@@ -77,7 +77,7 @@
   
   p {
 	color: var(--text-color);
-	font-size: 0.9375rem;
+	font-size: 1rem;
 	font-family: Arial, Helvetica;
 	text-shadow: 1px 1px 1px #111111;
 	text-align: center;
@@ -102,7 +102,7 @@
   }
   
   .containerVant {
-	max-width: 1200px;
+	max-width: 60%;
 	margin: 20px auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -110,15 +110,14 @@
   }
   
   .vants {
-	background-color: var(--cards-footer-color);
-	height: 220px;
-	flex-direction: column;
+	background-color: var(--cards-color);
 	align-items: center;
 	text-align: center;
-	flex-basis: 20%;
-	padding: 15px;
+	padding: 35px;
+	flex-basis: 15%;
 	border-radius: 12px;
 	margin-top: 20px;
+	height: auto;
   }
   
   #titleVants {
@@ -127,7 +126,7 @@
   
   .titleCards {
 	margin: 10px;
-	font-size: medium;
+	font-size: 1.5rem;
 	color: var(--text-color);
   }
   
@@ -139,7 +138,7 @@
   
   .sizeImgs2 {
 	width: 40%;
-	max-width: 80px;
+	max-width: 50%;
 	height: auto;
   }
   
