@@ -65,7 +65,8 @@
 	clear: both;
 	background-size: 100%;
 	min-height: 400px;
-	padding: 0 0 0 0;
+	margin-top: 120px;
+	padding: 0;
   }
   
   h1 {
@@ -83,6 +84,14 @@
 	text-align: center;
   }
   
+  .mainSection{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  }
+
   .mainBackground {
 	background-color: var(--hover-main__background-color);
 	padding: 80px 0;
@@ -107,7 +116,7 @@
 	align-items: center;
 	text-align: center;
 	flex-basis: 20%;
-	padding: 20px;
+	padding: 15px;
 	border-radius: 12px;
 	margin-top: 20px;
   }
@@ -116,13 +125,7 @@
 	margin-top: 120px;
   }
   
-  .alinhamentoh1 {
-	margin: 20px;
-	padding: 10px;
-	flex-basis: 20%;
-  }
-  
-  .alinhamentoh2 {
+  .titleCards {
 	margin: 10px;
 	font-size: medium;
 	color: var(--text-color);
@@ -141,11 +144,30 @@
   }
   
   
-  /* Media queries for responsiveness */
+/* Media query for screens up to 768px */
 @media screen and (max-width: 768px) {
 	header {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  right: 0;
 	  height: auto;
 	  padding: 10px;
+	  z-index: 999;
+	  /* background-color: white; Optional: Add a background color to the header */
+	}
+  
+	nav {
+	  width: 100%;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	nav #logo {
+	  width: 100%;
+	  display: flex;
+	  justify-content: center;
 	}
   
 	nav #logo img {
@@ -153,7 +175,7 @@
 	}
   
 	nav #menu {
-	  flex-wrap: wgirap;
+	  flex-wrap: wrap;
 	  justify-content: center;
 	  margin-top: 5px;
 	}
